@@ -1,22 +1,22 @@
-/* This is not the most efficient program but it will work for the problem. */
+/* not the most efficient code out there. but this will work for the assignment :> */
+// start
 #include <stdio.h>
 
-// Global variables
+// 2 Initialize Global variables
 int amount_exam = 10;
 float passing_percent = 5.00;
 
 int main() {
-    // Initialize each value
+    // 2.1 Initialize each user value
     int score = 0;
     int ttl_score = 0;
     int removal;
-
-    // Get inputs for each exam score
+    
+    // 2 Get inputs for each exam score
     for (int i = 0; i < amount_exam; i++) {
         do {
             printf("Insert your score for exam %d: ", i + 1);
             scanf("%i", &score);
-
             if (score < 0 || score > 10) {
                 printf("Invalid input! The maximum score is 10 and the minimum score is 0. Please try again.\n");
             }
@@ -45,11 +45,11 @@ int main() {
 
     // Ask if the user wants to take the removal exam
     printf("Would you like to take the removal exam? (0 for yes, any other number for no): ");
-    scanf("%i", &removal);
+    scanf("%i", &removal); // The assignment said it 'can' take the removal exam not 'have' to
     
     if (removal != 0) {
         printf("You chose not to take the removal exam.\n");
-        return 1;
+        return 0;
     }
 
     passing_percent += 1.00; // Increase benchmark for passing percentage
@@ -80,7 +80,7 @@ int main() {
         return 1;
     }
 
-    // Use a do-while loop to repeatedly ask for the score until a valid one is entered
+    // Use a do while loop to repeatedly ask for the score until a valid one is entered
     do {
         printf("Insert your score for the final chance exam: ");
         scanf("%i", &score);
@@ -95,6 +95,6 @@ int main() {
     } else {
         printf("You failed the final chance exam.\n");
     }
-
+    // 5. end program
     return 0;
 }
