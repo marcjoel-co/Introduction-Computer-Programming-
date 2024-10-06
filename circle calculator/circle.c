@@ -1,5 +1,6 @@
-/* A program to automate the calculation of a circles area and circumference based on the radius; prompts the 
-    user for the radius, calculates, and prints the area and circumference with a simple validation checker.*/
+/* A program to automate the calculation of a circles area and circumference based 
+on the radius; prompts the user for the radius, calculates, and prints the area and 
+circumference with a simple validation checker.*/
 
 // 1: Start
 #include <stdio.h>
