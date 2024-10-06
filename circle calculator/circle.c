@@ -5,7 +5,7 @@ calculates, and prints the area and circumference with a simple validation check
 #include <stdio.h>
 
 // 2: begin by initalizing variables for later
-float pi = 3.14159;
+float pi = 3.14;
 int radius;
 
 int main() {
