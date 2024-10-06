@@ -1,5 +1,5 @@
-/* A program to automate the calculation of a circles area and circumference based on the 
-radius;prompts the user for the radius, calculates, and prints the area and circumference.*/
+/* A program to automate the calculation of a circles area and circumference based on the radius;prompts the user for the radius, 
+calculates, and prints the area and circumference with a simple validation checker.*/
 
 // 1: Start
 #include <stdio.h>
@@ -9,10 +9,11 @@ float pi = 3.14159;
 int radius;
 
 int main() {
-
     // 3: Get input from the user
-    printf("Please input the radius of the circle: ");
-    scanf("%i", &radius);
+   do {
+        printf("Please input a positive integer forthe radius of the circle: ");
+        scanf("%d", &radius);
+    } while (radius <= 0);
 
     // 4: Calculate area and circumference
     float circumference = 2 * radius * pi; 
