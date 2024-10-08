@@ -5,7 +5,7 @@ circumference with a simple validation checker.*/
 // 1: Start
 #include <stdio.h>
 
-// 2: begin by initalizing variables for later
+// 2: begin by initalizing and declaring variables for later
 float pi = 3.14;
 int radius;
 
