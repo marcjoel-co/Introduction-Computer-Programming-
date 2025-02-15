@@ -1,4 +1,4 @@
-# Introduction-Computer-Programming-
+# Introduction-Computer-Programming
 
 This is an archieve repository documenting all of the problem set and projects in the introduction to programming of Mariano Mario State Univeristy of 2024 - 2025.
 Code: CIS 101 
