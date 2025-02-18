@@ -1,1 +1,1 @@
-
+Did magic square
