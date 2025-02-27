@@ -4,3 +4,8 @@ This is an archieve repository documenting all of the problem set and projects i
 Code: CIS 101 
 Name:Computer Programming 1 
 Under the teaching of our very demure, very cutesy professor
+
+
+Code: CIS 102
+Name: computer Programming 2
+Still the ever cutesy professor
